@@ -1,0 +1,71 @@
+.ludy-wrapper {
+	display: none;
+}
+
+.ludy-options a {
+	padding: 10px;
+	margin-bottom: 4px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.ludymodal {
+	position: fixed;
+	z-index: 99999;
+	display: none;
+	top: 20px;
+	left: 0;
+	right: 0;
+	max-width: 500px;
+	margin: 0px auto 0px auto;
+	padding: 20px;
+	background: #5f3829;
+	background: -moz-linear-gradient(top, #5f3829 0%, #3e2419 100%);
+	background: -webkit-linear-gradient(top, #5f3829 0%,#3e2419 100%);
+	background: linear-gradient(to bottom, #5f3829 0%,#3e2419 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f3829', endColorstr='#3e2419',GradientType=0 );
+	-webkit-box-shadow: inset 0px 2px 0px 0px rgba(255,255,255,0.8), 0px 0px 30px 0px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 2px 0px 0px rgba(255,255,255,0.8), 0px 0px 30px 0px rgba(0,0,0,1);
+	box-shadow: inset 0px 2px 0px 0px rgba(255,255,255,0.8), 0px 0px 30px 0px rgba(0,0,0,1);
+	border: 2px solid #000;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+}
+
+.ludymodal .fa-close {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	color: #777;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.ludymodal .ludymodal-header {
+	text-align: center;
+	font-size: 1.8em;
+	color: #66ccff;
+	margin-top: 0;
+	text-align: center;
+	font-size: 15px;
+}
+
+.ludymodal .ludymodal-body p {
+	font-size: 11px;
+	color: #fff;
+	text-shadow: 0 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.ludymodal-overlay {
+	position: fixed;
+	display: none;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.80);
+}
